@@ -2,13 +2,12 @@ package com.nfb.ecommerce.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table
+@Table(name="country")
 @Getter
 @Setter
 public class Country {
