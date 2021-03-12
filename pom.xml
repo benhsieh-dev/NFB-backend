@@ -13,15 +13,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-ecommerce</name>
 	<description>Spring Boot E-Commerce Project</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
-<!--	Test uploading to heroku-->
+<!--	<properties>-->
+<!--		<java.version>11</java.version>-->
+<!--	</properties>-->
+
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
-<!--	test code above property-->
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
