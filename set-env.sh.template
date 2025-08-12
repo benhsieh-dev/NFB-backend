@@ -1,0 +1,14 @@
+#!/bin/bash
+# Environment variables for Okta configuration
+# Copy this file to set-env.sh and fill in your values
+# Source before running: source set-env.sh
+
+export OKTA_CLIENT_ID="YOUR_OKTA_CLIENT_ID_HERE"
+export OKTA_ISSUER="https://YOUR_DOMAIN.okta.com/oauth2/default"
+
+# For dev profile (if needed)
+export OKTA_CLIENT_SECRET="YOUR_CLIENT_SECRET_IF_NEEDED"
+
+echo "Environment variables set for Okta configuration"
+echo "OKTA_CLIENT_ID: $OKTA_CLIENT_ID"
+echo "OKTA_ISSUER: $OKTA_ISSUER"
